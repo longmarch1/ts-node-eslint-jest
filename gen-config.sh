@@ -23,6 +23,8 @@ copy_file ".eslintrc"
 # add example.ts and example.test.ts
 copy_file "example.ts"
 copy_file "example.test.ts"
+copy_file "sum.ts"
+copy_file "sum.test.ts"
 
 # npm create package.json
 copy_file "package.json"
