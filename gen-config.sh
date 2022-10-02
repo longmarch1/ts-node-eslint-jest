@@ -28,7 +28,7 @@ copy_file "spec/example.t.ts"
 # npm create package.json
 copy_file "package.json"
 
-nmp i --save-dev
+npm i --save-dev
 
 # Remove git repo
 rm -rf ${repo}
