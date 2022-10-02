@@ -20,6 +20,9 @@ copy_file ".gitignore"
 # setup .eslintrc
 copy_file ".eslintrc"
 
+# tsconfig.json
+copy_file "tsconfig.json"
+
 # add example.ts and example.test.ts
 copy_file "example.ts"
 copy_file "example.test.ts"
