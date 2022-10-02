@@ -20,10 +20,9 @@ copy_file ".gitignore"
 # setup .eslintrc
 copy_file ".eslintrc"
 
-# add example.ts and example.t.ts
+# add example.ts and example.test.ts
 copy_file "example.ts"
-mkdir "spec"
-copy_file "spec/example.t.ts"
+copy_file "example.test.ts"
 
 # npm create package.json
 copy_file "package.json"
